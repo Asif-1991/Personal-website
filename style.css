@@ -1,14 +1,11 @@
 .nav-item ul{
   width: 100%;
   height: 100%;
-  float: left;
   text-decoration: none;
   color: #3C3C3C;
-  
 }
 .nav-item ul{
     float: right;
-    /* padding-bottom: 50px; */
 
 }
 .nav-item a{
@@ -40,7 +37,10 @@ h1{
   margin-left: 5%;
   padding-left: 2%;
 }
-
+.banner-text{
+  line-height: 40px;
+  padding-bottom: 20px;
+}
 .half-width img{
   width: 70%;
   margin-bottom: 50px;
@@ -49,21 +49,30 @@ h1{
   background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
 } */
+
 section{
   height: 500px;
   padding-bottom: 150px;
 }
 .link-button{
   text-decoration: none;
-  background-image: linear-gradient(45deg,rgb(235, 23, 23), rgb(255, 0, 157));
-  padding: 10px 30px;
+  background-image: linear-gradient(45deg,rgb(248, 136, 136), rgb(231, 55, 164));
+  padding: 20px 30px;
   border-radius: 5px;
   color: white;
-  padding-top: 5px;
+  padding-top: 15px;
+  scroll-margin-top: 20px;
 }
 .text-area{
   text-align: center;
   padding-bottom: 50px;
+}
+.about-text{
+  padding-top: 80px;
+}
+.about-paragraph{
+  line-height: 30px;
+  padding-bottom: 30px;
 }
 .lasted-area{
   background-image: url("images");
@@ -89,4 +98,33 @@ section{
   width: 80%;
   padding-left: 30px;
 
+}
+.footer-part{
+  height: 500px;
+  
+}
+.work-inquiry{
+  background-image: url("images/Group_33094_1.png"); 
+  background-repeat: no-repeat;
+  width: 906px;
+  height: 225px;
+  background-color: rgb(64, 64, 167);
+  margin-left: 230px;
+  border-radius: 10px;
+}
+.work-text{
+  padding-top: 90px;
+  padding-left: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+.work-inquiry a{
+  margin-left: 690px;
+}
+.gmail-part{
+  text-align: center;
+}
+.gmail-part img{
+ width: 2%;
+ padding-left: 15px; 
 }
